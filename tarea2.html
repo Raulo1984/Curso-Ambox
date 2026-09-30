@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 2</title>
+    <link rel="stylesheet" href="estilos.css">   
+</head>
+<body>
+    <h1>Formulario de Carga</h1> <br>
+
+
+    <form action="#" method="post" border-radius="5px" background-color="lightblue" padding="20px">
+
+        
+
+    <fieldset>
+        <legend>Datos Personales</legend>
+    <label for="nombre">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" autocomplete="on" required><br>
+    <label for="edad">Edad:</label><br>
+    <input type="number" id="edad" name="edad" placeholder="Ingrese su edad" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Ingrese su email" required><br>
+    <label for="Contraseña">Contraseña:</label><br>
+    <input type="password" id="contraseña" name="contraseña" placeholder="Ingrese su contraseña" required><br>
+    <label for="nacionalidad">Nacionalidad:</label><br>
+    <select id="nacionalidad" name="nacionalidad" required> <br>
+        <option value="">Seleccione una opción</option>
+        <option value="argentina">Argentina</option>
+        <option value="Brasileña">Brasileña</option>
+        <option value="uruguaya">Uruguaya</option>
+    </select>
+    <br>
+    <br>
+    <label for="terminos">Acepto los términos y condiciones:</label><br>
+    <input type="checkbox" id="Acepto los términos y condiciones" name="terminos" required>
+    </form>
+    </fieldset>
+<br>
+    <fieldset>
+        <legend>Requerimientos Especiales</legend>
+        <Label> Donante de Organos?</Label>
+        <input type="checkbox" id="donante" name="donante"><br>
+        <label for="Grupo Sanguíneo">Grupo Sanguíneo:</label><br>
+        <select id="Grupo Sanguíneo" name="Grupo Sanguíneo" required> <br>
+            <option value="">Seleccione una opción</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+        </select>
+    </fieldset>
+        <br>
+    <fieldset>  
+        <legend>Licencia de Conducir</legend> <br>
+            <select type="text" id="Categoria Licencia de Conducir" name="Categoria Licencia de Conducir"><br>
+            <option value="">Seleccione una opción</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+
+        </select>
+        <br>
+    </fieldset>   
+
+    Ingresar Comentarios: <br>
+    <textarea name="comentarios" id="comentarios" cols="53" rows="5" placeholder="Ingrese sus comentarios"></textarea>
+    <br>
+<fieldset>
+  <legend>Completar</legend>
+  Elija un color:<input type="color">  <br/>
+  <textarea rows='5' cols='53'>Por favor, escriba aquí</textarea>  <br/>
+  <select name='lenguaje' >
+    <option value='java'>Java</option>
+    <option value='python'>Python</option>
+    <option value='html'>HTML</option>
+    <option value='visual_basic'>Visual Basic</option>
+  </select>
+  <br/>
+  <input type='checkbox' name='ciclo' value='cicloasir'> ASIR 
+  <input type='checkbox' name='ciclo' value='ciclodam'> DAM 
+  <input type='checkbox' name='ciclo' value='ciclodaw'> DAW 
+  <br/>
+</fieldset>
+    </form>
+</body>
+</html>
